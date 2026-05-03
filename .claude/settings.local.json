@@ -32,7 +32,13 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/madeira_2021.jpeg)",
       "Bash(git init *)",
       "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(gh auth *)",
+      "Bash(brew install *)",
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(git config *)"
     ]
   }
 }
