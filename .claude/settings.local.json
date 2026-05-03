@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(npm install *)",
+      "Bash(sudo chmod *)",
+      "Bash(npx tsc *)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/joao_surfing.jpeg)",
+      "Bash(open -a \"Google Chrome\" http://localhost:3000)",
+      "WebSearch",
+      "WebFetch(domain:unsplash.com)",
+      "WebFetch(domain:images.unsplash.com)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://images.unsplash.com/photo-1455264745730-cb3b76250520?auto=format&fit=crop&w=1920&q=80\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://images.unsplash.com/photo-1519092437291-7e5cee01b99f?auto=format&fit=crop&w=1920&q=80\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&fit=crop&w=1920&q=80\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://images.unsplash.com/photo-1502680399482-0c44c0bc1bc1?auto=format&fit=crop&w=1920&q=80\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://images.unsplash.com/photo-1502680399482-0c44c0bc1bc1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=1920&q=80\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://images.unsplash.com/photo-1531722569936-825d4eee8d8b?auto=format&fit=crop&w=1920&q=80\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?auto=format&fit=crop&w=1920&q=80\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&w=1920&q=80\")",
+      "Bash(curl -s \"https://unsplash.com/photos/1473116763249-2faaef81ccda\")",
+      "Bash(curl -s \"https://unsplash.com/photos/1508739773434-c26b3d09e071\")",
+      "Bash(curl -s \"https://unsplash.com/photos/1544551763-77ef2d0cfc6c\")",
+      "Bash(curl -s \"https://unsplash.com/photos/1505118380757-91f5f5632de0\")",
+      "Bash(curl -sL \"https://unsplash.com/photos/i9HpLBLQoNE\" -o /dev/null -w \"%{url_effective}\\\\n\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=1920&q=80\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://images.unsplash.com/photo-1509914398892-963f53e6e2f1?auto=format&fit=crop&w=1920&q=80\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://images.unsplash.com/photo-1560090995-01632a28895b?auto=format&fit=crop&w=1920&q=80\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/madeira_2021.jpeg)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
