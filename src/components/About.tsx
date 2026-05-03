@@ -14,11 +14,10 @@ export default function About() {
         >
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+              src="/joao_surfing_2.jpeg"
               alt="Joao Costa surf coach"
-              className="rounded-3xl shadow-2xl relative z-10 aspect-[4/5] object-cover"
+              className="rounded-3xl shadow-2xl relative z-10 aspect-[4/5] object-cover object-[center_20%]"
               loading="lazy"
-              referrerPolicy="no-referrer"
             />
             <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-orange-100 rounded-2xl -z-0" />
           </div>

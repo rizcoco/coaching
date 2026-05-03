@@ -4,11 +4,11 @@ export default function Hero() {
   return (
     <section className="min-h-[90vh] flex flex-col md:flex-row pt-16">
       {/* Left — Photo */}
-      <div className="relative w-full md:w-1/2 h-64 sm:h-80 md:h-auto">
+      <div className="relative w-full md:w-2/5 h-64 sm:h-80 md:h-auto">
         <img
-          src="/joao_surfing_2.jpeg"
-          alt="Joao Costa surf coach smiling in the water"
-          className="w-full h-full object-cover object-top"
+          src="/joao_surfing_3.jpeg"
+          alt="Joao Costa surfing a wave"
+          className="w-full h-full object-cover [object-position:65%_50%]"
           loading="eager"
         />
         {/* Right-edge gradient to blend into the cream panel on desktop */}
@@ -16,7 +16,7 @@ export default function Hero() {
       </div>
 
       {/* Right — Text */}
-      <div className="w-full md:w-1/2 bg-[#FDFCFB] flex items-center justify-center px-8 md:px-16 py-16">
+      <div className="w-full md:w-3/5 bg-[#FDFCFB] flex items-center justify-center px-8 md:px-16 py-16">
         <motion.div
           initial={{ opacity: 0, x: 30 }}
           animate={{ opacity: 1, x: 0 }}
